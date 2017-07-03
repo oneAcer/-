@@ -1,0 +1,226 @@
+
+<!--这里是评论选择器-->
+<template name="byby">
+  <view class="hz">
+    <view class="hz1">
+      患者评论
+    </view>
+    <view class="hz2">
+      <view class="hzname">高**</view>
+      <view class="star"></view>
+      <view class="hzpl">我是来找石孝民教授的，困扰我多年的男科疾病被石孝民教授治好了，特别感谢。</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">孙**</view>
+      <view class="star"></view>
+      <view class="hzpl">我随着大夫调理了2个多月，大夫态度特别好，特别和蔼</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">孟**</view>
+      <view class="star"></view>
+      <view class="hzpl">石孝民大夫诊治非常认真，负责。态度令人感到亲切，增强了我康复的信心。谢谢石大夫！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">刘**</view>
+      <view class="star"></view>
+      <view class="hzpl">医院服务非常满意，医生很棒！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">孔**</view>
+      <view class="star"></view>
+      <view class="hzpl">医生很专业，经验丰富！</view>
+    </view>
+  </view>
+</template>
+<template name="qlx">
+  <view class="hz">
+    <view class="hz1">
+      患者评论
+    </view>
+    <view class="hz2">
+      <view class="hzname">高**</view>
+      <view class="star"></view>
+      <view class="hzpl">石孝民医生真棒</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">王**</view>
+      <view class="star"></view>
+      <view class="hzpl">石医生很好，医术很高明</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">刘**</view>
+      <view class="star"></view>
+      <view class="hzpl">就诊很顺利，医生态度很好！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">李**</view>
+      <view class="star"></view>
+      <view class="hzpl">非常感谢，特别认真。。。。</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">苏**</view>
+      <view class="star"></view>
+      <view class="hzpl">医院环境还不错，医生很专业，总体感觉还可以。赞一个</view>
+    </view>
+  </view>
+</template>
+<template name="szgr">
+  <view class="hz">
+    <view class="hz1">
+      患者评论
+    </view>
+    <view class="hz2">
+      <view class="hzname">李**</view>
+      <view class="star"></view>
+      <view class="hzpl">给我就诊的大夫真的很不错，医术高明，一说病情就能对症治疗，效果真的很不错，非常感谢我的就诊大夫。现在症状已经基本上不见了。</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">宋**</view>
+      <view class="star"></view>
+      <view class="hzpl">医生态度好，告诉详细，并且给我自己制定了完整的治疗前列腺炎方案，值得称道啊。</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">苏**</view>
+      <view class="star"></view>
+      <view class="hzpl">医院环境还不错，医生很专业，总体感觉还可以。赞一个。</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">段**</view>
+      <view class="star"></view>
+      <view class="hzpl">医生很专业，经验丰富！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">宋**</view>
+      <view class="star"></view>
+      <view class="hzpl">医生十分敬业负责，谢谢！</view>
+    </view>
+  </view>
+</template>
+<template name="xgn">
+  <view class="hz">
+    <view class="hz1">
+      患者评论
+    </view>
+    <view class="hz2">
+      <view class="hzname">李**</view>
+      <view class="star"></view>
+      <view class="hzpl">大夫态度很好，耐心认真。</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">吴**</view>
+      <view class="star"></view>
+      <view class="hzpl">石大夫很好，手术很顺利，也没有复发，平时还得自己控制刺激性的食物。</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">曹**</view>
+      <view class="star"></view>
+      <view class="hzpl">医生水平高</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">孙**</view>
+      <view class="star"></view>
+      <view class="hzpl">不错很好，仔细，人多</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">王**</view>
+      <view class="star"></view>
+      <view class="hzpl">石医生人很和气，给病人以温暖，问诊细致。好！</view>
+    </view>
+  </view>
+</template>
+<template name="szzx">
+  <view class="hz">
+    <view class="hz1">
+      患者评论
+    </view>
+    <view class="hz2">
+      <view class="hzname">尚**</view>
+      <view class="star"></view>
+      <view class="hzpl">非常不错哦~~很棒！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">高**</view>
+      <view class="star"></view>
+      <view class="hzpl">感谢医生，医生诊疗时态度很好！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">王**</view>
+      <view class="star"></view>
+      <view class="hzpl">非常不错哦~~很棒！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">王**</view>
+      <view class="star"></view>
+      <view class="hzpl">医生十分敬业负责，谢谢！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">宋**</view>
+      <view class="star"></view>
+      <view class="hzpl">医生的诊疗对我非常有帮助，感恩！</view>
+    </view>
+  </view>
+</template>
+<template name="index">
+  <view class="hz">
+    <view class="hz1">
+      患者评论
+    </view>
+    <view class="hz2">
+      <view class="hzname">高**</view>
+      <view class="star"></view>
+      <view class="hzpl">医生人非常好，体贴周到，对人特别和蔼可亲！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">宋**</view>
+      <view class="star"></view>
+      <view class="hzpl">态度很好！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">李**</view>
+      <view class="star"></view>
+      <view class="hzpl">医生和护士态度都非常好!希望有好的效果！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">杨**</view>
+      <view class="star"></view>
+      <view class="hzpl">非常的方便不用跟以前一样排大队.算好时间去就行了赞一个！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">许**</view>
+      <view class="star"></view>
+      <view class="hzpl">医生态度很好，说没什么事，也不乱开药</view>
+    </view>
+  </view>
+</template>
+<template name="gyd">
+  <view class="hz">
+    <view class="hz1">
+      患者评论
+    </view>
+    <view class="hz2">
+      <view class="hzname">高**</view>
+      <view class="star"></view>
+      <view class="hzpl">医生人非常好，体贴周到，对人特别和蔼可亲！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">宋**</view>
+      <view class="star"></view>
+      <view class="hzpl">态度很好！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">李**</view>
+      <view class="star"></view>
+      <view class="hzpl">医生和护士态度都非常好!希望有好的效果！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">杨**</view>
+      <view class="star"></view>
+      <view class="hzpl">非常的方便不用跟以前一样排大队.算好时间去就行了赞一个！</view>
+    </view>
+    <view class="hz2">
+      <view class="hzname">许**</view>
+      <view class="star"></view>
+      <view class="hzpl">医生态度很好，说没什么事，也不乱开药</view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,44 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.nav{margin-top:2%;
+border-bottom: solid 1px #DFDFDF;height:160px;border-top:#DFDFDF 1px solid;}
+.nav21{background:url(http://www.jnyh120.com/swt/wx/images/zice.jpg)no-repeat; }
+.nav22{background:url(http://www.jnyh120.com/swt/wx/images/guahao.jpg)no-repeat;}
+.nav23{background:url(http://www.jnyh120.com/swt/wx/images/gaikuang.jpg)no-repeat;}
+.nav24{background:url(http://www.jnyh120.com/swt/wx/images/luxian.jpg)no-repeat;}
+
+.bz21{background:url(http://www.jnyh120.com/swt/wx/images/buyu.jpg)no-repeat;}
+.bz22{background:url(http://www.jnyh120.com/swt/wx/images/qlx.jpg)no-repeat;}
+.bz23{background:url(http://www.jnyh120.com/swt/wx/images/ganran.jpg)no-repeat;}
+.bz24{background:url(http://www.jnyh120.com/swt/wx/images/xgn.jpg)no-repeat;}
+.bz25{background:url(http://www.jnyh120.com/swt/wx/images/zx.jpg)no-repeat;}
+
+.nav1{width: 30%;float: left;padding-left: 15%;margin-top: 5%;margin-left:5%;background-size:25%;}
+.navname{font-size: 0.8em;line-height: 2em;}
+.navjs{font-size:0.6em;color: rgb(160, 160, 160)}
+.bz{margin-top:10px;border-top: 1px #DFDFDF solid;padding-top: 20px;height:200px;border-bottom: 1px #DFDFDF solid}
+.bz1{width: 30%;float: left;height:3em;padding-left: 15%;margin-left: 5%;background-size:25%;}
+.bz2{font-size: 0.8em;line-height: 3em;}
+.hz{margin-top:10px;border-top:#DFDFDF 1px solid}
+
+

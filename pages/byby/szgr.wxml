@@ -1,0 +1,10 @@
+<include src="../template/soso.wxml"/>
+<view class="bzbg">
+<view class="type">{{typename}}生殖感染</view>
+ <include src="../template/doc.wxml"/>
+</view>
+<!--上面是医生介绍
+    下面是患者评论5篇
+-->
+<import src="../template/hzpl.wxml"/>
+<template is="szgr" data="{{...byby}}"/>

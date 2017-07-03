@@ -1,0 +1,6 @@
+<!--pages/ysname/ysname.wxml-->
+<view class="ysbanner">
+<image src="" background-size="cover"></image>
+<text>{{text}}</text>
+<text>主治医生</text>
+</view>

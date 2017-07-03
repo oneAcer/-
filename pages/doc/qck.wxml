@@ -1,0 +1,29 @@
+<!--pages/doc/sxm.wxml-->
+<view class="docbg">
+<view class="docpng">
+<image src="http://m1.jnyhnk.com/uploads/allimg/170412/1-1F4120Z321356.jpg" mode="aspectFill"></image>
+</view>
+<view class="docname1">强存科</view>
+<view class="docold">主治医师</view>
+<view class="docold">济宁中医药学会副理事长</view>
+<view class="docpj">患者推荐热度（综合）：5.0 <text class="jian">荐</text></view>
+</view>
+<!--上面是医生大图-->
+ <include src="../template/docli.wxml"/>
+
+<view class="shanchang">
+<view class="docsc">专业擅长</view>
+<view class="doctxt">内科杂病、儿科病及泌尿科</view>
+</view>
+<view class="shanchang">
+<view class="docjl">执业经历</view>
+<view class="doctxt">强存科，济宁任城运河医院主任医师、国家著名中医、中医学会常务理事，国家名老中医学术经验继承指导老师，济宁中医药学会副理事长。从事中医临床40年，积累了丰富的医疗实践经验，始终坚持中医理论与实践相结合，善于辨证论治，精于理法方药，擅长诊治内科杂病、儿科病及泌尿科，尤在诊治急性热病和疑难病证方面有独到经验，在国内外享有很高的医疗威望，是著名的中医学专家。</view>
+</view>
+<view class="shanchang">
+<view class="dochz">患者评价</view>
+<view class="dochzli dli1"><image src="/images/bixin.png"></image>5.0<text>\n患者推荐热度（综合）</text></view>
+<view class="dochzli">疗效：<image src="/images/zanzan.png"></image><text>99%\n</text>态度：<image src="/images/zanzan.png"></image><text>99%\n</text></view>
+<view class="dzh"></view>
+</view>
+<import src="../template/hzpl.wxml"/>
+<template is="szgr" data="{{...byby}}"/>

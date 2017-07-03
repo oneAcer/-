@@ -1,0 +1,17 @@
+<!--pages/map/map.wxml-->
+<include src="../template/soso.wxml"/>
+<view class="main">
+<view class="map">
+<map id="map" longitude="116.596709" latitude="35.392903" scale="17" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+</view>
+<view class="section">
+ <view class="gongjiao">公交</view>
+ <view class="zhandian">火车站</view>
+ <view class="gjc">乘102、5、203路公交路线</view>
+ <view class="gongjiao">出租车</view>
+ <view class="gjc">直接打车到济宁运河医院</view>
+ <view class="gongjiao">自驾车</view>
+ <view class="gjc">直接开车到车站西路9号，如果中途有路线不清楚还可以拨打电话咨询：<text>0537-2938888</text></view>
+</view>
+</view>
+

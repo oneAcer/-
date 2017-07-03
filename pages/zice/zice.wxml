@@ -1,0 +1,90 @@
+<include src="../template/soso.wxml" />
+<view class="bencNeirong">
+
+  <view class="zc_about">
+    男性性功能是一个复杂的生理过程，由一系列条件反射和非条件反射活动来完成。</view>
+  <view class="zicebiao">
+    <view class="zc_list">
+      <text>
+        1、是否在你和你的性伙伴渴望性交前射精（早泄）？</text>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+          <radio name="k1" value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+    <view class="zc_list">
+      <text>
+        2、是否不能充分勃起以达到性交快乐？</text>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+          <radio name="k2" value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+    <view class="zc_list">
+      <text>
+        3、是否在性交过程中敢感疼痛？</text>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+          <radio name="k3" value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+    <view class="zc_list">
+      <text>
+        4、是否缺乏或失去性欲？</text>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+          <radio name="k4" value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+    <view class="zc_list">
+      <text>
+        5、是否性交失语？</text>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+          <radio name="k5" value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+    <view class="zc_list">
+      <text>
+        6、是否性交癫痫？</text>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+          <radio name="k6" value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+    <view class="zc_list">
+      <text>
+        7、是否性交恐惧症？</text>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+          <radio name="k7" value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+    <view class="zc_list">
+      <text>
+        8、是否逆行射精？</text>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+          <radio name="k8" value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+    <view class="zc_btn">
+      <button type="img" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" name="btn_tj" bindtap="default" hover-class="other-button-hover" onclick="sumnum('k','男性性功能')"> 开始自测 </button>
+      <contact-button type="default-light" size="20" session-from="weapp">
+      </contact-button>
+    </view>
+  </view>
+
+</view>
+<view id="xianshi">
+  <view><span id="score"></span><span id="result_smz"></span>分</view>
+  <view id="text_smz"></view>
+</view>

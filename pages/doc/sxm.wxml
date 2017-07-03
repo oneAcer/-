@@ -1,0 +1,29 @@
+<!--pages/doc/sxm.wxml-->
+<view class="docbg">
+<view class="docpng">
+<image src="http://m1.jnyhnk.com/picture/sxm.jpg" mode="aspectFit"></image>
+</view>
+<view class="docname1">石孝民</view>
+<view class="docold">主任医生</view>
+<view class="docold">原空军总医院泌尿科主任</view>
+<view class="docpj">患者推荐热度（综合）：5.0 <text class="jian">荐</text></view>
+</view>
+<!--上面是医生大图-->
+ <include src="../template/docli.wxml"/>
+
+<view class="shanchang">
+<view class="docsc">专业擅长</view>
+<view class="doctxt">泌尿外科及男科常见病、多发病和疑难病的诊断治疗</view>
+</view>
+<view class="shanchang">
+<view class="docjl">执业经历</view>
+<view class="doctxt">石孝民，男，原空军总医院泌尿科主任、北京医师协会男科委员会委员、北京金丝带性功能障碍研究院专家、中华医学会泌尿外科学术委员会委员。长期从事男科专业工作，多次参加全国、全军及空军的学术年会，2000年作为中国泌尿外科专家，参加中国援助赞比亚军医专家组执行援赞任务。</view>
+</view>
+<view class="shanchang">
+<view class="dochz">患者评价</view>
+<view class="dochzli dli1"><image src="/images/bixin.png"></image>5.0<text>\n患者推荐热度（综合）</text></view>
+<view class="dochzli">疗效：<image src="/images/zanzan.png"></image><text>99%\n</text>态度：<image src="/images/zanzan.png"></image><text>99%\n</text></view>
+<view class="dzh"></view>
+</view>
+<import src="../template/hzpl.wxml"/>
+<template is="byby" data="{{...byby}}"/>

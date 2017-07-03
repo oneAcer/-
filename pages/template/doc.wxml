@@ -1,0 +1,45 @@
+<navigator url="/pages/doc/sxm?title=医生详情" hover-class="navigator-hover">
+<view class="docter">
+<view class="docimg">
+<image src="http://m1.jnyhnk.com/picture/sxm.jpg" mode="aspectFit"></image>
+</view>
+<view class="docname">
+<view class="doc1">石孝民</view>
+<view class="doc2">主任医师</view>
+<view class="doc2">原空军总医院泌尿科主任</view>
+<view class="doc3">疗效：<text class="topimg"></text></view>
+<view class="doc3">态度：<text class="topimg"></text></view>
+<view class="doc4">擅长：泌尿外科及男科常见病、多发病和疑难病的诊断治疗。</view>
+</view>
+</view>
+ </navigator>
+ <navigator url="/pages/doc/qck?title=医生详情" hover-class="navigator-hover">
+<view class="docter">
+<view class="docimg">
+<image src="http://m1.jnyhnk.com/uploads/allimg/170412/1-1F4120Z321356.jpg" mode="aspectFit"></image>
+</view>
+<view class="docname">
+<view class="doc1">强存科</view>
+<view class="doc2">主治医师</view>
+<view class="doc2">济宁中医药学会副理事长</view>
+<view class="doc3">疗效：<text class="topimg"></text></view>
+<view class="doc3">态度：<text class="topimg"></text></view>
+<view class="doc4">擅长：内科杂病、儿科病及泌尿科</view>
+</view>
+</view>
+</navigator>
+<navigator url="/pages/doc/gyd?title=医生详情" hover-class="navigator-hover">
+<view class="docter">
+<view class="docimg">
+<image src="http://m1.jnyhnk.com/uploads/allimg/170412/1-1F4120Z353J6.jpg" mode="aspectFit"></image>
+</view>
+<view class="docname">
+<view class="doc1">公祥栋</view>
+<view class="doc2">肛肠科主任</view>
+<view class="doc2">原部队军医</view>
+<view class="doc3">疗效：<text class="topimg"></text></view>
+<view class="doc3">态度：<text class="topimg"></text></view>
+<view class="doc4">擅长：无痛微创治疗内痔外痔混合痔，肛裂，肛瘘，肛门瘙痒等肛门疾病</view>
+</view>
+</view>
+</navigator>

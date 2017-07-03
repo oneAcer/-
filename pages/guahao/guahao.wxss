@@ -1,0 +1,24 @@
+/* pages/guahao/guahao.wxss */
+
+.riqi {
+}
+
+.today {
+  text-align: center;
+  width: 20%;
+  display: flex;
+  float: left;
+}
+
+.today text {
+  text-align: center;
+}
+
+.section {
+  font-family: '微软雅黑', sans-serif;
+  margin: 5%;
+}
+textarea{font-size: 0.875rem;}
+input{border:1px solid #000; width: 70%;float: right;padding-left: 5%;border-radius: 15px;}
+.time1{border:1px solid #000; width: 70%;float: right;padding-left: 5%;border-radius: 15px; }
+

@@ -1,0 +1,6 @@
+
+<view class="banner">
+<!--<image src="/images/banner.jpg" mode=""></image>-->
+</view>
+<template name="soso">
+</template>

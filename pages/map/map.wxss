@@ -1,0 +1,33 @@
+/* pages/map/map.wxss */
+
+
+
+.map{
+    margin: 0 auto;
+}
+
+.section{
+    
+   
+    margin: 0 auto;
+}
+.gongjiao{    
+    background-image:url(http://www.jnyh120.com/swt/wx/images/gongjiao.png) no-repeat;
+    background-color: rgb(240, 239, 239);
+    padding-left: 10%;
+    height: 1.5em;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0 2%;   
+    border-bottom: solid rgb(217, 217, 217) 2px;
+}
+.zhandian{
+    color: rgb(255, 112, 6);
+    font-weight: bold;
+}
+.gjc{
+   padding-top:2%;
+   padding-bottom: 2%;
+   font-size: 0.8em;
+}
+text{color: rgb(255, 112, 6)}

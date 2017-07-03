@@ -1,0 +1,10 @@
+.zc_about{ margin:0px auto;padding:5px; border:#006600 1px dotted; background-color:#f8f8f8; color:#003300; line-height:24px;}
+.zc_list{ border-bottom:#CCCCCC 1px dashed; padding:8px 0px; line-height:24px;}
+.zc_btn{width:320px; text-align:center; margin:0px auto; padding-top:8px;}
+.zicebiao{ padding:0px 10px;}
+#xianshi{ width:280px; margin:0px auto;padding:5px;font-size:1em;text-align:center; display:none;border: 2px solid rgb(159,86,18); margin-top:10px;font-family:"微软雅黑"}
+#xianshi view{WIDTH: 248px; COLOR: #9f5612; FONT-SIZE: 15px }
+#result_smz{COLOR: red; FONT-SIZE: 20px}
+#text_smz{TEXT-ALIGN: left; LINE-HEIGHT: 22px; WIDTH: 280px; PADDING-RIGHT: 20px; COLOR: #333}
+.bencNeirong{font-family:"微软雅黑"}
+.radio{width: 30%;}

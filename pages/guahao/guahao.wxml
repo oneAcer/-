@@ -1,0 +1,53 @@
+<include src="../template/soso.wxml" />
+<view class="section">
+  姓\t名:
+  <input placeholder="张三" auto-focus type="text" />
+</view>
+<view class="section">
+  性别：
+<radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
+</view>
+<view class="section">
+年龄：  <input placeholder=" " auto-focus type="number"  maxlength="3"/>
+</view>
+<view class="section">
+电话：<input placeholder=" " auto-focus type="number"  maxlength="11"/>
+</view>
+<view class="section">
+  <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+    <view class="picker">
+      就诊日期:
+      <view class="time12"> {{date}}</view>
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+    <view class="picker">
+      就诊时间:
+      <view class="time12">{{time}}</view>
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      就诊科室:
+      <view class="time12">{{array[index]}}</view>
+    </view>
+  </picker>
+</view>
+<view class="section">
+  详细描述:
+  <textarea placeholder="描述你的病情" auto-focus auto-height/>
+</view>
+<view>
+  <button>提交</button>
+  <!--<toast hidden="{{bookToastHidden}}"  bindchange="hideToast">
+      预约成功
+        </toast>-->
+</view>

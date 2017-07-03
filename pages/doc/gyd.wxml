@@ -1,0 +1,29 @@
+<!--pages/doc/sxm.wxml-->
+<view class="docbg">
+<view class="docpng">
+<image src="http://m1.jnyhnk.com/uploads/allimg/170412/1-1F4120Z321356.jpg" mode="aspectFill"></image>
+</view>
+<view class="docname1">公祥栋</view>
+<view class="docold">肛肠科主任</view>
+<view class="docold">原部队军医</view>
+<view class="docpj">患者推荐热度（综合）：5.0 <text class="jian">荐</text></view>
+</view>
+<!--上面是医生大图-->
+ <include src="../template/docli.wxml"/>
+
+<view class="shanchang">
+<view class="docsc">专业擅长</view>
+<view class="doctxt">无痛微创治疗内痔外痔混合痔，肛裂，肛瘘，肛门瘙痒等肛门疾病</view>
+</view>
+<view class="shanchang">
+<view class="docjl">执业经历</view>
+<view class="doctxt">原部队军医，毕业于中国人民解放军济南医学高等专科学校，在部队先后在九一医院进修学习擅长无痛微创治疗内痔外痔混合痔，肛裂，肛瘘，肛门瘙痒等肛门疾病</view>
+</view>
+<view class="shanchang">
+<view class="dochz">患者评价</view>
+<view class="dochzli dli1"><image src="/images/bixin.png"></image>5.0<text>\n患者推荐热度（综合）</text></view>
+<view class="dochzli">疗效：<image src="/images/zanzan.png"></image><text>99%\n</text>态度：<image src="/images/zanzan.png"></image><text>99%\n</text></view>
+<view class="dzh"></view>
+</view>
+<import src="../template/hzpl.wxml"/>
+<template is="gyd" data="{{...byby}}"/>

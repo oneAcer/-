@@ -1,0 +1,31 @@
+<view class="docli">
+<navigator url="/pages/map/map?title=评论" hover-class="navigator-hover">
+<view> 
+<image src="/images/doc1.png" mode="aspectFit"></image>
+<text class="doclo">\n患者评论\n</text>
+<text class="docloo">(查看评论)</text>
+</view>
+ </navigator>
+
+ <navigator url="/pages/guahao/guahao?title=预约挂号" hover-class="navigator-hover">
+<view>
+<image src="/images/doc2.png" mode="aspectFit"></image>
+<text class="doclo">\n预约挂号\n</text>
+<text class="docloo">限号20名</text>
+</view></navigator>
+
+<navigator bindtap="calling">
+<view>
+<image src="/images/doc3.png" mode="aspectFit"></image>
+<text class="doclo">\n咨询电话\n</text>
+<text class="docloo">0537-2938888</text>
+</view>
+</navigator>
+ <navigator url="/pages/map/map?title=来院路线" hover-class="navigator-hover">
+<view>
+<image src="/images/doc4.png" mode="aspectFit"></image>
+<text class="doclo">\n来院指南\n</text>
+<text class="docloo">最便捷的路线</text>
+</view>
+</navigator>
+</view>
