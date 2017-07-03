@@ -1,0 +1,83 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.main{
+  width: 95%;
+  margin: 0 auto;
+  font-family: "微软雅黑",sans-serif;
+  font-size:0.8em;
+}
+.banner{
+  background-image: url(http://www.jnyh120.com/swt/wx/images/banner.jpg);
+ 
+  height:50px; 
+  padding-top:150px; 
+  margin-bottom: 10px;
+}
+#so1{border-radius: 5px 0 0 5px;width: 67%;float: left;border: solid 1px #fff;padding-left: 2%;text-size:12px;}
+.so2{border-radius: 0 5px 5px 0;width: 30%;float: right;font-size:0.6em;background:rgb(254, 178, 58);color: #fff; }
+.soso{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color:#fff; 
+    height: 30px;
+    
+}
+.index{font-family: "微软雅黑",sans-serif;
+    margin-top:10px;
+    height:auto;
+}
+.hz{margin-top:10px;border-top:#DFDFDF 1px solid;font-family: "微软雅黑",sans-serif;}
+.hz1{font-size: 0.8em;padding-left: 7%;margin: 5%;background: url(http://www.jnyh120.com/swt/wx/images/hz.png)no-repeat;background-position:0 50%;}
+.hzname{color:#397EB9;margin-left: 5%;font-size: 0.75em;width: 50%;}
+.hzpl{margin: 5%;color: #7A7979;font-size: 0.75em;border-bottom:1px solid #D9D9D9; padding-bottom: 3%;}
+.star{width: 4.5rem;float:right;background: url(http://www.jnyh120.com/swt/wx/images/star.png)no-repeat;height: 1rem;position: relative;top:-1rem;}
+
+.type{
+background-color: #F3F3F3;color: #397EB9;text-align: center;height: 2em;line-height: 2em;
+}
+.docter{color: #575757;font-family: "微软雅黑",sans-serif;height: 7rem;border-bottom: 1px solid #DFDFDF;margin-bottom: 0.8rem;background: #FFFFFF;
+
+}
+.docimg{margin-left: 1rem;width: 4rem;height: 4rem;border-radius:50%; overflow:hidden;float: left; }
+.docter image{width: 4rem;height: 4rem;}
+.docname{width: 72%;float: right;}
+.doc1{font-size: 1rem;color:#252525;height: 1.5em;}
+.doc2{color:#949494;font-size: 0.725rem;height: 1.5em;}
+.doc3{color: #949494;font-size: 0.725rem;width: 50%;float: left;height: 1.5em;}
+.doc4{color: #636363;font-size: 0.725rem;height: 1.5em;}
+.topimg{color: #FF4C1C;background-image: url(http://www.jnyh120.com/swt/wx/images/topimg.png);padding-left: 4.5em;}
+.bzbg{background: #F3F3F3;}
+
+
+.docbg{text-align: center;font-family: "微软雅黑",sans-serif;height: 16rem;background:url(http://www.jnyh120.com/swt/wx/images/docbg.png)no-repeat;padding-top: 5%;background-size: 100%;}
+.docpng{width: 6rem;height: 6rem;border-radius: 50%;overflow: hidden;margin: 0 auto}
+.docpng image{width: 6rem;height: 6rem;}
+.docname1{font-size: 1.5rem;height: 2.5rem}
+.docold{line-height: 1.5rem;}
+.docpj{color: #fff;font-size: 0.875rem;margin-top: 0.8rem;}
+.jian{background: #FF4C1C;border-radius: 5px;padding: 0.3rem;}
+
+.docli{margin-top: 1rem;text-align: center;font-family: "微软雅黑",sans-serif;font-size: 0.75rem;border-bottom: 1px solid #D9D9D9;height: 5rem;}
+.docli image{width: 2rem;height: 2rem;}
+.docli view{width: 25%;float: left;}
+.docloo{color: #949494;font-size: 0.675rem;}
+
+.shanchang{margin:0.5rem 0;border-top: 1px solid #D9D9D9;border-bottom: 1px solid #D9D9D9;height: auto;font-family: "微软雅黑",sans-serif}
+.dochz{padding: 1rem 0 0.2rem 2rem;font-size: 0.85rem;background: url(http://www.jnyh120.com/swt/wx/images/hzdoc.png)no-repeat;background-position: 2% 70%;}
+.docsc{padding: 1rem 0 0.2rem 2rem;font-size: 0.85rem;background: url(http://www.jnyh120.com/swt/wx/images/shanchang.png)no-repeat;background-position: 2% 70%;}
+.docjl{padding: 1rem 0 0.2rem 2rem;font-size: 0.85rem;background: url(http://www.jnyh120.com/swt/wx/images/jingli.png)no-repeat;background-position: 2% 70%;}
+.doctxt{line-height: 1rem;text-indent: 2rem;color: #949494;font-size: 0.675rem;padding: 0.5rem;}
+.dochzli{width: 38%;float: left;color: #949494;font-size: 0.675rem;padding:5%; }
+.dochzli image{width: 1rem;height: 1rem}
+.dli1{border-right: 1px solid #7A7979;text-align: center;}
+.dzh{height: 5rem;}

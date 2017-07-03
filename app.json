@@ -1,0 +1,26 @@
+{
+  "pages": [
+   
+    "pages/index/index",
+    "pages/byby/byby",
+    "pages/byby/qlx",
+    "pages/byby/szgr",
+    "pages/byby/xgn",
+    "pages/byby/szzx",
+    "pages/yyjj/yyjs",
+   "pages/guahao/guahao",
+    "pages/ysname/ysname",
+    "pages/doc/sxm",
+    "pages/doc/qck",
+    "pages/doc/gyd",
+    "pages/map/map",
+    "pages/zice/zice",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#143D97",
+    "navigationBarTitleText": "济宁运河医院",
+    "navigationBarTextStyle": "#fff"
+  }
+}
